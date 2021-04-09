@@ -1,9 +1,6 @@
 const express = require('express')
 const app = express();
 
-
-
-
 const port = parseInt(process.argv[2]) || process.env.PORT || 3000;
 const options = [
     "Got for it !",
